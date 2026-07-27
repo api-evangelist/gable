@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.gable.to/security
+url: https://www.gable.to/security
+certifications:
+- SOC 2
+- ISO 27001
+- PCI DSS
+- GDPR
+- CCPA
+evidence:
+- source: https://www.gable.to/security
+  keywords:
+  - soc 2
+  - iso 27001
+  - pci-dss
+  - gdpr

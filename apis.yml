@@ -1,7 +1,13 @@
 aid: gable
 name: Gable
-description: Gable is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gable is an all-in-one workplace management platform that connects people, spaces,
+  and data with AI-driven insights for hybrid and in-office teams. The platform provides desk
+  and room booking, room scheduling, visitor management, and event planning, plus on-demand
+  access to a global network of 20,000+ premium coworking spaces across 900+ cities. Gable
+  surfaces office-utilization analytics that compare intended versus actual attendance to inform
+  real estate and cost decisions, and integrates with Slack, Microsoft Teams, Outlook, Google
+  Calendar, Okta, Workday, Brivo, and Rippling. A Gable booking API plus SSO and SCIM support
+  enable programmatic and enterprise administration of the workplace estate.
 url: https://raw.githubusercontent.com/api-evangelist/gable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/65f1cea8cbf3c39a6695af71/6605617914b179cf3a47978b_Group%206894.png
 tags:
 - Company
+- Workplace Management
+- Desk Booking
+- Hybrid Work
+- Room Scheduling
+- Visitor Management
+- Coworking
+- Real Estate Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,30 @@ maintainers:
 common:
 - type: Website
   url: https://gable.to/
+- type: Blog
+  url: https://www.gable.to/blog
+- type: Pricing
+  url: https://gable.to/pricing
+- type: SignUp
+  url: https://app.gable.to/login
+- type: Login
+  url: https://app.gable.to/login
+- type: TermsOfService
+  url: https://gable.to/terms-of-use
+- type: PrivacyPolicy
+  url: https://gable.to/privacy-policy
+- type: Support
+  url: https://intercom.help/gable-inc/en/
+- type: HelpCenter
+  url: https://intercom.help/gable-inc/en/
+- type: TrustCenter
+  url: security/gable-trust-center.yml
+- type: Compliance
+  url: https://www.gable.to/security
+- type: DomainSecurity
+  url: security/gable-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
